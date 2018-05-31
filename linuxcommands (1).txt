@@ -1,0 +1,152 @@
+gedit linuxcommands.txt
+pwd
+mkdir LinuxPractice
+mkdir DOC
+mkdir PPT
+mkdir TXT
+gedit 1.txt| 2.txt | 3.txt
+gedit 1.doc| 2.doc | 3.doc
+libreoffice --impress 1.ppt 2.ppt 3.ppt
+cp /home/iiitdm/Desktop/LinuxPractice/Doc/1.doc /home/iiitdm/Desktop/LinuxPractice/
+find \( -iname "*.ppt" -o -iname "*.txt" -o -iname "*.doc" \) cp -t /home/iiitdm/Desktop/LinuxPractice/ {} +
+mkdir LinuxPracticeCopy
+rm -rf /home/iiitdm/Desktop/LinuxCommands/
+gvfs-trash LinuxPracticeCopy
+mv /home/iiitdm/.local/share/Trash/files/LinuxPracticeCopy /home/iiitdm/Desktop/LinuxCommands/
+find \( -iname "*.ppt" \)
+find \( -iname "2*.*" \)
+find \( -iname "3.ppt" -o -iname "3.doc" \)
+libreoffice --impress 3.ppt 
+ctrl + z to background 
+fg to foreground
+grep iiitdm 3.ppt
+ctrl + c
+libreoffice --impress 3.ppt
+grep iiitdm 3.ppt
+cp /home/iiitdm/Desktop/LinuxCommands /home/iiitdm/Documents/
+zip -r LinuxCommands LinuxCommands/
+cat 1.txt 2.txt 3.txt > singlefiletxt.txt
+libreoffice --headless --convert-to pdf 1.doc
+libreoffice --headless --convert-to pdf 2.doc
+cat 1.pdf 2.pdf > 3.pdf
+rm 1.doc 2.doc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TO open directories cd
+to list out content ls
+to create new files libreoffice --impress/writer or gedit *.doc/txt
+ls -l linuxcommmands.txt
+grep iiitdm 3.ppt
+zip zipname filenames
+to convert files to pdf libreoffice --headless --convert-to pdf filename
+to remove files use rm , to force it rm -f and to repeatedly delete rm -rf
+to copy use cp source destination
+to move mv source destination
+find \( -iname "*.ppt" -o -iname "*.doc" -o -iname "*.txt" \) -exec cp -t /home/iiitdm/Desktop/linuxpractice/ {} +
+gvfs-trash filename 
+find \( -iname "*.*" \)
+fg to bring it to foreground
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+
+
